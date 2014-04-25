@@ -34,6 +34,14 @@ function walkhub_views_api($module = NULL, $api = NULL) {
  */
 function walkhub_node_info() {
   $items = array(
+    'play_parameters' => array(
+      'name' => t('Play parameters'),
+      'base' => 'node_content',
+      'description' => '',
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
     'walkthrough' => array(
       'name' => t('Walkthrough'),
       'base' => 'node_content',
